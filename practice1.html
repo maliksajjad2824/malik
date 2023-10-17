@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Agency Blog Modern</title>
+    </head>
+    <style>
+        body{
+            margin: 0px;
+            
+        }
+        .navbar
+        {
+            width: 100%;
+            height: 80px;
+            position:fixed ;
+            background-color: white;
+            margin-top: 0;
+            border-bottom: 1px solid black;
+            
+
+            
+        }
+        .searchlogo
+        {
+            width: 20px;
+            height: 20px;
+        }
+       
+        .h1
+        {
+            color: black;
+        }
+        .navh1
+        {
+            text-decoration: none;
+            float: left;
+            margin-right: 35%;
+            margin-left: 5%;
+        }
+        .head
+        {
+            color:rgb(243, 6, 45);
+        }
+        .navh2
+        {
+            color: black;
+            text-decoration: none;
+            float: left;
+            margin-left: 70px;
+            margin-top: 20px;
+            transition: 0.8s;
+            
+            
+        }
+        .navh2:hover
+        {
+            color: black;
+            font-weight: bold;
+        }
+        .imgmain
+        {
+            width: 100%;
+            height: 900px;
+            background-image: url(main-img.jpg);
+           
+        }
+
+        .minip
+        {
+            width: 500px;
+            height: 650px;
+            float: left;
+            background-color: white;
+            margin-top: 150px;
+            margin-left: 100px;
+        }
+
+        .minip h2
+        {
+            letter-spacing: 2px;
+            font-size: 16px;
+            font-family: "Arial", sans-serif;
+           margin-top: 50px;
+            margin-left: 36px;
+        }
+
+        .minip h2 span
+        {
+            text-decoration: underline;
+        }
+        .minip h3 span::after
+        {
+            width: 50px;
+            bottom: -5px;
+            border-bottom: 1px solid black;
+            line-height: 1.5;
+        }
+
+        .minip h3
+        {
+            margin-top: 60px;
+            margin-left: 50px;
+        }
+        .minip1
+        {
+            float: left;
+            width: 490px;
+            text-decoration: none;
+        }
+        .minip1:hover
+        {
+            transform: scale(0.9);
+        }
+        .minip1 a img
+        {
+            width: 100px;
+            height: 100px;
+            float: left;
+            margin-top: 30px;
+            margin-left: 30px;
+            transition: 1.2s;
+
+        }
+
+        .minip1 a img:hover
+        {
+            transform: scale(1.2);
+        }
+
+        .minip1 a h3
+        {
+            margin-left: 170px;
+            color: black;
+            font-weight: bold;
+            
+
+        }
+
+        .minip1 a
+        {
+            text-decoration: none;
+        }
+
+        .minip1 a h3:hover
+        {
+            color: rgb(189, 15, 44);
+        }
+        
+        
+        .p1
+        {
+            width: 100px;
+            height: 100px;
+            background-color: white;
+           float: left;
+            margin-left: 30px;
+            text-decoration: none;
+            
+           
+        }
+        .pp1
+        {
+           
+            height: 100%;
+            
+           
+           
+        }
+        .a1
+        {
+           margin-left: 30px;
+           margin-bottom: 20px;
+           text-decoration: none;
+           color: black;
+        }
+        .ahref2
+        {
+            float: left;
+        }
+        .main-img
+        {
+            
+            width: 100%;
+        }
+
+        .cap1
+        {
+            margin-top: 50px;
+            
+            margin-right: 3%;
+            margin-bottom: 20px;
+            
+        }
+        .tag
+        {
+           
+            text-decoration: none;
+            color: rgb(207, 29, 59);
+            margin-left: 50px;
+        }
+       
+        .subimg
+        {
+            width: 40%;
+            margin-left: 90px;
+            float: left;
+            height: auto;
+            
+        }
+
+        .sub1
+        {
+            text-decoration: none;
+            color: black;
+        }
+        
+        .imgmain
+        {
+            float: left;
+            
+        }
+        .lastimg{
+            clear: left;
+        }
+        .btn
+        {
+            height: 40px;
+            width: 150px;
+            background-color: black;
+            color: white;
+            margin-top: 180px;
+            margin-bottom: 180px;
+        }
+
+        
+        .banner
+        {
+            width: 98%;
+            height: 480px;
+            background-color:rgb(236, 229, 229);
+            margin-bottom: 50px;
+            padding: 10px;
+        }
+
+        .banner h1{
+            margin-top: 100px;
+        }
+
+        .banner p{
+            margin-top: 30px;
+        }
+        .banner form{
+            margin-top: 30px;
+            border-width: 5px 6px 7px 8px;
+        }
+     
+        .last
+        {
+           margin-top: 30px;
+            background-color:gainsboro ;
+        }
+        .ban
+        {
+            margin-top: 30px;
+        }
+
+        .txt
+        {
+            width: 80%;
+            height: 30px;
+        }
+        .txt input
+
+        {
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-bottom: 2px solid black;
+            background-color: rgb(236, 229, 229);
+            width: 50%;
+            height: 50px;
+            margin-top: 50px;
+        }
+
+        .txt button
+        {
+            width:150px ;
+            height: 50px;
+            background-color: black;
+            color: white;
+        }
+    </style>
+    <body>
+        <div class="navbar">
+            <a href="#" class="navh1"><h1 class="h1"><img src="mainlogo.png"></h1></a>
+            
+            <a href="#" class="navh2"><b>Home</b></a>
+            
+            <a href="https://storyhub-modern-agency-redq.vercel.app/about" class="navh2">About</a>
+            <a href="https://storyhub-modern-agency-redq.vercel.app/contact" class="navh2">Contact</a>
+            <a href="https://storyhub-modern-agency-redq.vercel.app/404" class="navh2">404 Page</a>
+            <a href="#" class="navh2"><img src="download.png" class="searchlogo"></a>
+        
+            
+
+        </div>
+        <div class="imgmain">
+            <div class="minip">
+                <h2><span>Featured</span> Posts</h2>
+                <div class="minip1">
+                    <a href="https://storyhub-modern-agency-redq.vercel.app/art-of-perfection/"><img src="subimg1.png" alt="sub img"></a>
+                    <a href="https://storyhub-modern-agency-redq.vercel.app/art-of-perfection/"><h3>Perfecting the Art of Perfection</h3></a>
+                    <a href="https://storyhub-modern-agency-redq.vercel.app/tags/javascript/" class="tag">#javascript</a>
+                <a href="https://storyhub-modern-agency-redq.vercel.app/tags/hooks/" class="tag">#hooks</a>
+
+
+
+                </div>
+
+
+
+
+               
+                <div class="minip1">
+                    <a href="https://storyhub-modern-agency-redq.vercel.app/six-online-store-failed/"><img src="subimg2.png" alt="sub img"></a>
+                    <a href="https://storyhub-modern-agency-redq.vercel.app/six-online-store-failed/"><h3>Six of My Online Stores Failed</h3></a>
+                    <a href="https://storyhub-modern-agency-redq.vercel.app/tags/javascript/" class="tag">#javascript</a>
+                <a href="https://storyhub-modern-agency-redq.vercel.app/tags/hooks/" class="tag">#hooks</a>
+
+
+
+                </div>
+
+
+
+
+
+
+               
+                <div class="minip1">
+                    <a href="https://storyhub-modern-agency-redq.vercel.app/markdown-test/"><img src="subimg3.png" alt="sub img"></a>
+                    <a href="https://storyhub-modern-agency-redq.vercel.app/markdown-test/"><h3>This is markdown unity test!</h3></a>
+                    <a href="https://storyhub-modern-agency-redq.vercel.app/tags/javascript/" class="tag">#javascript</a>
+                <a href="https://storyhub-modern-agency-redq.vercel.app/tags/hooks/" class="tag">#hooks</a>
+
+
+
+                </div>
+
+
+
+
+              
+                <div class="minip1">
+                    <a href="https://storyhub-modern-agency-redq.vercel.app/can-i-use-hooks-today"><img src="subimg4.png" alt="sub img"></a>
+                    <a href="https://storyhub-modern-agency-redq.vercel.app/can-i-use-hooks-today"><h3>Can I Use Hooks Today?</h3></a>
+                    <a href="https://storyhub-modern-agency-redq.vercel.app/tags/javascript/" class="tag">#javascript</a>
+                <a href="https://storyhub-modern-agency-redq.vercel.app/tags/hooks/" class="tag">#hooks</a>
+
+
+
+                </div>
+
+
+
+
+              
+
+            </div>
+
+           </div>
+        
+
+        <div class="subimg">
+            
+            <a href="https://storyhub-modern-agency-redq.vercel.app/art-of-perfection/"><img src="Capture1.PNG" class="cap1" alt="img 1"></a>
+            <div>
+                <a href="https://storyhub-modern-agency-redq.vercel.app/tags/javascript/" class="tag">#javascript</a>
+                <a href="https://storyhub-modern-agency-redq.vercel.app/tags/hooks/" class="tag">#hooks</a>
+                <a href="https://storyhub-modern-agency-redq.vercel.app/tags/featured/" class="tag">#featured</a>
+            </div>
+            <div>
+                <a href="https://storyhub-modern-agency-redq.vercel.app/art-of-perfection/ " class="sub1"><h1>Perfecting the Art of Perfection</h1></a>
+                <p>An Essay on Typography by Eric Gill takes the reader back to the year 1930. The year when a conflict between two worlds came to its term. The machines of the industrial world finally took over the…</p>
+            </div>
+        </div>
+
+            <div class="subimg">
+            
+                <a href="https://storyhub-modern-agency-redq.vercel.app/six-online-store-failed/"><img src="Capture2.PNG" class="cap1" alt="img 1"></a>
+                
+                <div>
+                    <a href="https://storyhub-modern-agency-redq.vercel.app/tags/javascript/" class="tag"><span>#javascript</span></a>
+                    <a href="https://storyhub-modern-agency-redq.vercel.app/tags/hooks/" class="tag"><span>#hooks</span></a>
+                    <a href="https://storyhub-modern-agency-redq.vercel.app/tags/featured/" class="tag"><span>#featured</span></a>
+                    
+                </div>
+            
+                <div>
+                    
+                    <a href="https://storyhub-modern-agency-redq.vercel.app/six-online-store-failed/" class="sub1"><h1>Six of My Online Stores Failed</h1></a>
+                    <p>Did you know that “despite its name, salted duck eggs can also be made from chicken eggs, though the taste and texture will be somewhat different, and the egg yolk will be less rich.”? Lorem ipsum…</p>
+                </div>
+        
+            </div>
+
+
+
+        <div class="subimg">
+            
+            <a href="https://storyhub-modern-agency-redq.vercel.app/markdown-test/"><img src="Capture3.PNG" class="cap1" alt="img 1"></a>
+            
+            <div>
+                <a href="https://storyhub-modern-agency-redq.vercel.app/tags/javascript/" class="tag"><span>#javascript</span></a>
+                <a href="https://storyhub-modern-agency-redq.vercel.app/tags/hooks/" class="tag"><span>#hooks</span></a>
+                <a href="https://storyhub-modern-agency-redq.vercel.app/tags/featured/" class="tag"><span>#featured</span></a>
+            </div>
+        
+            <div>
+               
+                <a href="https://storyhub-modern-agency-redq.vercel.app/markdown-test/ " class="sub1"> <h1>This is markdown unity test!</h1></a>
+                <p>Documentation stored with source files shares the same permissions. Documentation stored in a separate Git repository can use different access controls. If Gerrit Code Review is being used, branch…</p>
+            </div>
+    
+        </div>
+
+
+
+
+
+    <div class="subimg">
+            
+        <a href="https://storyhub-modern-agency-redq.vercel.app/Installing-Multiple-Versions/"><img src="Capture4.PNG" class="cap1" alt="img 1"></a>
+        
+        <div>
+            <a href="https://storyhub-modern-agency-redq.vercel.app/tags/javascript/" class="tag"><span>#javascript</span></a>
+            <a href="https://storyhub-modern-agency-redq.vercel.app/tags/hooks/" class="tag"><span>#hooks</span></a>
+            <a href="https://storyhub-modern-agency-redq.vercel.app/tags/featured/" class="tag"><span>#featured</span></a>
+        </div>
+    
+        <div>
+            
+            <a href="https://storyhub-modern-agency-redq.vercel.app/Installing-Multiple-Versions/" class="sub1"><h1>Installing Multiple Versions of Node.js Using NVM</h1></a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pharetra sapien nibh, sed tempor mauris suscipit ac. Duis libero nibh, porttitor at posuere at, luctus et urna. Pellentesque habitant…</p>
+        </div>
+
+    </div>
+
+
+<div class="subimg lastimg">
+            
+    <a href="https://storyhub-modern-agency-redq.vercel.app/can-i-use-hooks-today"><img src="Capture5.PNG" class="cap1" alt="img 1"></a>
+    
+    <div>
+        <a href="https://storyhub-modern-agency-redq.vercel.app/tags/javascript/" class="tag"><span>#javascript</span></a>
+        <a href="https://storyhub-modern-agency-redq.vercel.app/tags/hooks/" class="tag"><span>#hooks</span></a>
+        <a href="https://storyhub-modern-agency-redq.vercel.app/tags/featured/" class="tag"><span>#featured</span></a>
+    </div>
+
+    <div>
+       
+        <a href="https://storyhub-modern-agency-redq.vercel.app/can-i-use-hooks-today " class="sub1"> <h1>Can I Use Hooks Today?</h1></a>
+        <p>Node.js is an open-source, cross-platform JavaScript run-time environment for executing JavaScript code server-side. Historically, JavaScript was used primarily for client-side scripting, in which…</p>
+    </div>
+
+</div>
+<div class="subimg">
+            
+    <a href="https://storyhub-modern-agency-redq.vercel.app/an-example-can-be/"><img src="Capture6.PNG" class="cap1" alt="img 1"></a>
+    
+    <div>
+        <a href="https://storyhub-modern-agency-redq.vercel.app/tags/javascript/" class="tag"><span>#javascript</span></a>
+        <a href="https://storyhub-modern-agency-redq.vercel.app/tags/hooks/" class="tag"><span>#hooks</span></a>
+        <a href="https://storyhub-modern-agency-redq.vercel.app/tags/featured/" class="tag"><span>#featured</span></a>
+    </div>
+
+    <div>
+       
+        <a href="https://storyhub-modern-agency-redq.vercel.app/an-example-can-be/" class="sub1"> <h1>An example can be illustrative</h1></a>
+        <p>Given the discourse around this issue, it can be easy to either overestimate the scope of this problem, or discount solving it as irrelevant to the libraries’ mission. Recent studies have shown that…</p>
+    </div>
+
+</div>
+
+</div>
+
+<center>
+
+    <a href="https://storyhub-modern-agency-redq.vercel.app/page/1" class="seemore"></a><button class="btn">See more</button></a>
+
+
+
+<div class="banner">
+    <h1>     </h1>
+
+    <h1>Get The Best Of All Hands Delivered To Your Inbox</h1>
+    <p>Subscribe to our newsletter and stay updated.</p>
+    <form class="txt">
+        <input type="email" name="Ali" placeholder="Write your email here" >
+        
+        <button>Subscribe</button>
+    
+    </form>
+        
+   </div>
+</div>
+</center>
+
+   
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+</html>
